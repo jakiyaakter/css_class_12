@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: poppins;
+}
+
+.container{
+    margin: 0 auto;max-width: 1440px;
+    width: 96%;
+
+}
+
+/* Header area start */
+.header_area{
+    background-color: white;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 133px;
+    align-items: center;
+
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* header area end */
+
+.banner_area{
+    background-image: url(image/banner/welcome\ banner.png);
+    background-size: cover;
+    height: 683px;
+}
+
+.banner{
+    padding: 50px 0 0 50px;
+}
+/* .banner_welcome_text h1{
+    background-color:#fff;
+    Width:359px;
+    Height:83px;
+    margin-top:236px;
+    margin-left:112px;
+} */
+
+.banner h1{
+    background-color: #fff;
+    width: 359px;
+    height: 83px;
+    margin-top: 20px;
+}
+.banner p{
+    background-color: #fff;
+    width: 359px;
+    height: 83px;
+    margin-top: 20px;
+}
+
+.relationships_area{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* media screen */
+@media screen and (max-width: 1024px) {
+    .relationships_area{
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .relationships_area{
+        display: block;
+    }
+    .relationships_img_area{
+        margin-top: 30px;
+    }
+    
+}
+.services-area{
+    background-image: url(image/banner/service_banner.png);
+    background-size: cover;
+    height: 680px;
+}
+
+.banner{
+    padding: 50px 0 0 50px;
+}
+/* .banner_services_text h4{
+    background-color:#fff;
+    Width:359px;
+    Height:83px;
+    margin-top:1586px;
+    margin-left:112px;
+} */
