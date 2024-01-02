@@ -116,3 +116,14 @@ body{
     margin-top:1586px;
     margin-left:112px;
 } */
+
+.banner h4{
+    background-color: #fff;
+    width: 359px;
+    height: 83px;
+    margin-top: 1586px;
+}
+.services-text-area{
+    display: flex;
+    justify-content: space-between;
+}
